@@ -5,6 +5,11 @@ Version 3.0.RC1 (XXXX-XX-XX)
 ----------------------------
 
 ### New
+Added an option to disable the automatic class registration in the autoload
+creator, in case an extension does not use it. I will also add a PSR-0 class
+loader which maps class names to `system/module` (see #4526).
+
+### New
 Added the "prepareFormData" hook (see #4538).
 
 ### Improved
